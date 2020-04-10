@@ -1,3 +1,4 @@
+import { toast } from 'react-toastify';
 import { all, takeLatest, call, put } from 'redux-saga/effects';
 import { signInSuccess, signFailure } from './actions';
 
@@ -13,13 +14,13 @@ export function* signIn({ payload }) {
     const { token, user } = response.data;
 
     if (!user.provider) {
-      console.tron.error('User does not provider.');
-      return;
+      throw new Error();
     }
 
     yield put(signInSuccess(token, user));
     history.push('/dashboard');
   } catch (error) {
+    toast.error('Falha na autenticação, verifique seus dados de acesso.');
     yield put(signFailure());
   }
 }
