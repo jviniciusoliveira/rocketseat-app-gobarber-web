@@ -5,6 +5,10 @@ import { signInSuccess, signFailure } from './actions';
 import api from '~/services/api';
 import history from '~/services/history';
 
+export function setToken(token) {
+  api.defaults.headers.Authorization = `Bearer ${token}`;
+}
+
 export function* signIn({ payload }) {
   try {
     const { email, password } = payload;
@@ -16,6 +20,8 @@ export function* signIn({ payload }) {
     if (!user.provider) {
       throw new Error();
     }
+
+    setToken(token);
 
     yield put(signInSuccess(token, user));
     history.push('/dashboard');
@@ -40,7 +46,18 @@ export function* signUp({ payload }) {
   }
 }
 
+export function rehydrate({ payload }) {
+  if (!payload) return;
+
+  const { token } = payload.auth;
+
+  if (token) {
+    setToken(token);
+  }
+}
+
 export default all([
+  takeLatest('persist/REHYDRATE', rehydrate),
   takeLatest('@auth/SIGN_IN_REQUEST', signIn),
   takeLatest('@auth/SIGN_UP_REQUEST', signUp),
 ]);
