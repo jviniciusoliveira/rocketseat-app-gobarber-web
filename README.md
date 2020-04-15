@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/logo-purple.svg" style="width: 100px;" />
+  <img src="https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/logo.PNG" />
 </p>
 
 <h1 align="center">
