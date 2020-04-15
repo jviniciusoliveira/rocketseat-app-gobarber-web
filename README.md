@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./.github/logo-purple.svg" style="width: 100px;" />
+  <img src="https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/logo-purple.svg" style="width: 100px;" />
 </p>
 
 <h1 align="center">
@@ -37,16 +37,16 @@ _O aplicativo GoBarber possibilita o agendamento de horários por clientes de ba
 
 - SignIn
   <br/>
-  <img src="./.github/signin.png" />
+  ![](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/signin.PNG)
 
 - SignUp
   <br/>
-  <img src="./.github/signup.png"/>
+  ![](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/signup.PNG)
 
 - Dashboard
   <br/>
-  <img src="./.github/dashboard.png"/>
+  ![](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/dashboard.PNG)
 
 - Profile
   <br/>
-  <img src="./.github/profile.png"/>
+  ![](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/profile.PNG)
