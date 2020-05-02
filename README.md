@@ -1,10 +1,10 @@
-<p align="center">
-  <img src="https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/gobarber.gif" />
-</p>
-
 <h1 align="center">
     GoBarber
 </h1>
+
+<p align="center">
+  <img src="https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/gobarber.gif" />
+</p>
 
 ## **Sobre**
 
@@ -32,21 +32,3 @@ _O aplicativo GoBarber possibilita o agendamento de horários por clientes de ba
 - Iniciar a aplicação: `yarn start`
 
 **Observação:** _A [API GoBarber](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-api) precisa estar instalada._
-
-## **Screenshot**
-
-- SignIn
-  <br/>
-  ![](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/signin.PNG)
-
-- SignUp
-  <br/>
-  ![](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/signup.PNG)
-
-- Dashboard
-  <br/>
-  ![](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/dashboard.PNG)
-
-- Profile
-  <br/>
-  ![](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web/blob/master/.github/profile.PNG)
