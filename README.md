@@ -12,7 +12,7 @@ Este é o projeto Web do App GoBarber, desenvolvido durante o treinamento (Bootc
 
 _**App GoBarber**_
 
-_O aplicativo GoBarber possibilita o agendamento de horários por clientes de barbearias via aplicativo ~~mobile~~ e o controle da agenda via web._
+_O aplicativo GoBarber possibilita o agendamento de horários por clientes de barbearias via aplicativo [mobile](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-mobile) e o controle da agenda via web._
 
 ## **Recursos**
 
@@ -28,7 +28,7 @@ _O aplicativo GoBarber possibilita o agendamento de horários por clientes de ba
 
 ### **Pré-Requisito**
 
-[API GoBarber](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-api)
+- Instalar [API GoBarber](https://github.com/jviniciusoliveira/rocketseat-app-gobarber-api)
 
 - Clonar o repositório: `git clone https://github.com/jviniciusoliveira/rocketseat-app-gobarber-web.git`
 - Acessar o diretório: `cd rocketseat-app-gobarber-web'`;
